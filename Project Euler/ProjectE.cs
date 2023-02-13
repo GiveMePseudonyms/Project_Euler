@@ -10,6 +10,9 @@ namespace Project_Euler
 
 			//Problem2_Fibonacci p2 = new Problem2_Fibonacci();
 			//p2.run();
+
+			//P3_LargestPrimeFactor p3 = new P3_LargestPrimeFactor();
+			//p3.run();
 		}
 	}
 }
