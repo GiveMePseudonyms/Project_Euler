@@ -5,8 +5,11 @@ namespace Project_Euler
 	{
 		static void Main(string[] args)
 		{
-			M35 newm35 = new M35();
+			//Problem1_Multiples3or5 p1 = new Problem1_Multiples3or5();
+			//p1.run();
+
+			//Problem2_Fibonacci p2 = new Problem2_Fibonacci();
+			//p2.run();
 		}
 	}
 }
-
