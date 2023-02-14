@@ -13,6 +13,9 @@ namespace Project_Euler
 
 			//P3_LargestPrimeFactor p3 = new P3_LargestPrimeFactor();
 			//p3.run();
+
+			//P4_Palindromic_Numbers p4 = new P4_Palindromic_Numbers();
+			//p4.run();
 		}
 	}
 }
