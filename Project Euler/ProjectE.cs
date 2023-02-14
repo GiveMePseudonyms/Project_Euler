@@ -16,6 +16,9 @@ namespace Project_Euler
 
 			//P4_Palindromic_Numbers p4 = new P4_Palindromic_Numbers();
 			//p4.run();
+
+			//P5_Smallest_Multiple p5 = new P5_Smallest_Multiple();
+			//p5.run();
 		}
 	}
 }
