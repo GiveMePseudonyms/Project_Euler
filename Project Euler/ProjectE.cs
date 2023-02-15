@@ -19,6 +19,9 @@ namespace Project_Euler
 
 			//P5_Smallest_Multiple p5 = new P5_Smallest_Multiple();
 			//p5.run();
+
+			//P6_Square_of_the_Sums p6 = new P6_Square_of_the_Sums();
+			//p6.run();
 		}
 	}
 }
