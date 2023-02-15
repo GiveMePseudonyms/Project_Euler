@@ -22,6 +22,9 @@ namespace Project_Euler
 
 			//P6_Square_of_the_Sums p6 = new P6_Square_of_the_Sums();
 			//p6.run();
+
+			//P7_Prime_10001 p7 = new P7_Prime_10001();
+			//p7.run();
 		}
 	}
 }
