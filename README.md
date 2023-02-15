@@ -44,7 +44,7 @@ What is the smallest positive number that is evenly divisible by all of the numb
 
 [Solution](https://github.com/GiveMePseudonyms/Project_Euler/blob/main/Project%20Euler/P5_Smallest%20Multiple.cs)
 
-### Square of the Sums
+### 06 Square of the Sums
 
 The sum of the squares of the first ten natural numbers is,
   1^2 + 2^2 +... 10^2 = 385
