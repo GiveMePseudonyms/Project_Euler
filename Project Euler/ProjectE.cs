@@ -34,6 +34,9 @@ namespace Project_Euler
 
 			//P9_Special_Pythagorean_Triplet p9 = new P9_Special_Pythagorean_Triplet();
 			//p9.run();
+
+			//P010_Summation_of_Primes p010 = new P010_Summation_of_Primes();
+			//p010.run();
 		}
 	}
 }
