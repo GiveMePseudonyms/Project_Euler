@@ -37,6 +37,9 @@ namespace Project_Euler
 
 			//P010_Summation_of_Primes p010 = new P010_Summation_of_Primes();
 			//p010.run();
+
+			//P011_Largest_Product_in_a_Grid p011 = new P011_Largest_Product_in_a_Grid();
+			//p011.run();
 		}
 	}
 }
