@@ -17,7 +17,7 @@ namespace Project_Euler
 		 * but a range of 2,000,000 will take far too long so we will need to use
 		 * a seive of eratosthenes.
 		 * 
-		 * This was EXCEPTIONALLY difficul to implement since I had never heard
+		 * This was EXCEPTIONALLY difficult to implement since I had never heard
 		 * of a sieve of eratosthenes and had to do a lot of research on it.
 		 */
         public void run()
@@ -26,7 +26,7 @@ namespace Project_Euler
 
 			//Generate a bool array equal to the size of our target + 1
 			bool[] isPrime = new bool[target + 1];
-			//make all items in the array >2 true;
+			//make all indices in the array greater than 2 true;
 			for (int i = 2; i <= target; i++)
 			{
 				isPrime[i] = true;
