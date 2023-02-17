@@ -103,6 +103,7 @@ For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
 
 There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 Find the product abc.
+
 [Solution](https://github.com/GiveMePseudonyms/Project_Euler/blob/main/Project%20Euler/P009_Special%20Pythagorean%20Triplet.cs)
 
 ### 10 Summation of Primes
