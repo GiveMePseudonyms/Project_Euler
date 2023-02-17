@@ -25,24 +25,23 @@ namespace Project_Euler
 
         public void run()
         {
-            Console.WriteLine("Project Euler: 3 of 5:\n");
-            Console.WriteLine("If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.\n\nFind the sum of all the multiples of 3 or 5 below 1000.");
-
             int total = 0;
 
             for (int i = 0; i <= 1000; i++)
             {
                 string istring = i.ToString();
-
+                //0*x = 0, we're going to 999
                 if (i == 0 | i == 1000)
                 {
                     continue;
                 }
+                //if it ends in a 3 or 5, add it to the total and move on
                 else if (istring.EndsWith("5") | istring.EndsWith("0"))
                 {
                     total += i;
                     continue;
                 }
+                // if it's perfectly divisible by 3 add it to the total and move on
                 else if (i % 3 == 0)
                 {
                     total += i;

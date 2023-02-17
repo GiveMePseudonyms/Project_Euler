@@ -72,6 +72,8 @@ namespace Project_Euler
 			digits = Regex.Replace(digits, @"\s", "");
 
 			long largestProduct = 0;
+			//grab a string of 13 digits fro each index in the string
+			//(up until length-13 since that would cause an oob exception)
 			for (int i = 0; i <= digits.Length-13; i++)
 			{
 				string stringToTest = digits.Substring(i, 13);

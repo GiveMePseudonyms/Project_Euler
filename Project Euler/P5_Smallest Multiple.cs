@@ -41,11 +41,15 @@ namespace Project_Euler
 	{
 		public void run()
 		{
+			//grab the relevant factors and put them in an array
 			int[] factors = { 7, 9, 11, 12, 13, 14, 16, 16, 17, 18, 19, 20 };
 			int number = 20;
 			while (true)
 			{
 				bool match = true;
+				// if the number is perfectly divisible by 2520 then we know
+				//it's not a match since 2520 can be perfectly divided by 1-10
+				//and 1-20 is exactly twice the working range
 				if(number % 2520 != 0)
 				{
 					number++;
@@ -53,6 +57,7 @@ namespace Project_Euler
 				}
 				foreach (int factor in factors)
 				{
+					//check divisibility for each factor
 					Console.WriteLine($"Testing {number}");
 					if (number % factor != 0)
 					{

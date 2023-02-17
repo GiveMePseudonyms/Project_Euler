@@ -29,12 +29,13 @@ namespace Project_Euler
 	{
 		public void run()
 		{
-			Console.WriteLine("Running");
+			//make a short list of primes to start with
 			long[] primes = { 2, 3, 5, 7, 9, 11, 13 };
-			
-			long number = 14;
+			//start at the next number which could be prime
+			long number = 15;
 			while (primes.Length <= 10001)
 			{
+				//if it's prime, add it to the list
 				if (IsPrime(primes, number))
 				{
 					primes = primes.Append(number).ToArray();
@@ -42,17 +43,21 @@ namespace Project_Euler
 					number++;
 					continue;
 				}
+				//otherwise continue
 				else
 				{
 					number++;
 					continue;
 				}
 			}
+			//print the final prime in the list (10001st)
 			Console.WriteLine(primes[primes.Length]);
 		}
 
 		static bool IsPrime(long[] primes, long number)
 		{
+			//a prime can't be perfectly divided by any smaller prime,
+			//so we can use this to test for primes.
 			foreach (long prime in primes)
 			{
 				if (number % prime == 0)

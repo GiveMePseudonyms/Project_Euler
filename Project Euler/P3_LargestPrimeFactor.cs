@@ -32,23 +32,28 @@ namespace Project_Euler
 	{
 		public void run()
 		{
+			//working number = the value of our work to reduce to a prime
 			long workingNumber = 600851475143;
+			//start at 3 since 2 would result in a nonprime
 			int counter = 3;
+			//temp value to store workingnum
             long x = workingNumber;
 
             while (workingNumber > 1)				
 			{
+				// if we can perfectly divide working number by our denominator
+				// then we know it's a factor leading to a prime
 				if (workingNumber % counter == 0)
 				{
 					workingNumber /= counter;
 					x = workingNumber;
 				}
+				//otherwise, increment the denominator by 2 to skip the even numbers
 				else
 				{
 					x = workingNumber;
 					counter += 2;
 				}
-				
 			}
 			Console.WriteLine(counter);
         }

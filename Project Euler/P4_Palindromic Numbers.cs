@@ -27,7 +27,7 @@ namespace Project_Euler
 		{
 			int longestPalindrome = 0;
 			int product;
-			
+			//x and y are used to loop through the range
 			int x;
 			int y;
 
@@ -36,6 +36,8 @@ namespace Project_Euler
 				for (y = 100; y <= 999; y++)
 				{
 					product = x * y;
+					//if the result is longer than the most recent palindrome
+					//we can check it
 					if (product.ToString().Length >= longestPalindrome.ToString().Length)
 					{
 						if (IsPalindromic(product) & product > longestPalindrome)
@@ -52,16 +54,22 @@ namespace Project_Euler
 
 		private static bool IsPalindromic(int product)
 		{
+			//convert to string
 			string numString = product.ToString();
-			
+
+			//find the midpoint
 			int halfLength = (int)Math.Ceiling(numString.Length / 2d);
 
+			//split the string at the midpoint
             string firstHalf = numString.Substring(0, halfLength);
 
+
+			//get the individual chars and reverse them
             char[] chars = firstHalf.ToCharArray();
 			Array.Reverse(chars);
 			string correctSecondHalf = new string(chars);
 
+			//check if this matches the second half
             string actualSecondhalf = numString.Substring(halfLength);
 
             if (correctSecondHalf == actualSecondhalf)

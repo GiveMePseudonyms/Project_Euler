@@ -3,6 +3,9 @@ namespace Project_Euler
 {
 	public class ProjectE
 	{
+		/*
+		 * Remove the comments on the solution you want to run
+		 */
 		static void Main(string[] args)
 		{
 			//Problem1_Multiples3or5 p1 = new Problem1_Multiples3or5();

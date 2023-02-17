@@ -26,13 +26,16 @@ namespace Project_Euler
             int x = 0;
             int y = 1;
 
-            while (x<4000000 & y < 4000000)
+            while (x < 4000000 & y < 4000000)
             {
+                //z = the next number in the sequence
                 int z = x + y;
-                if (z%2 == 0)
+                //if z is even, add to total
+                if (z % 2 == 0)
                 {
                     total += z;
                 }
+                //offset x and y such that we can continue
                 x = y;
                 y = z;
             }
