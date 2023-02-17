@@ -25,6 +25,9 @@ namespace Project_Euler
 
 			//P7_Prime_10001 p7 = new P7_Prime_10001();
 			//p7.run();
+
+			//P8_Largest_Product_In_a_Series p8 = new P8_Largest_Product_In_a_Series();
+			//p8.run();
 		}
 	}
 }
