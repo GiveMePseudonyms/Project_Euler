@@ -15,10 +15,10 @@ namespace Project_Euler
 		 * 
 		 * Brute-forcing primes through trial division is fine for smaller ranges
 		 * but a range of 2,000,000 will take far too long so we will need to use
-		 * a seive of erastothenes.
+		 * a seive of eratosthenes.
 		 * 
 		 * This was EXCEPTIONALLY difficul to implement since I had never heard
-		 * of a sieve of erastothenes and had to do a lot of research on it.
+		 * of a sieve of eratosthenes and had to do a lot of research on it.
 		 */
         public void run()
 		{
