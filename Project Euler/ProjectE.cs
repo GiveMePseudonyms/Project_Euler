@@ -31,6 +31,9 @@ namespace Project_Euler
 
 			//P8_Largest_Product_In_a_Series p8 = new P8_Largest_Product_In_a_Series();
 			//p8.run();
+
+			//P9_Special_Pythagorean_Triplet p9 = new P9_Special_Pythagorean_Triplet();
+			//p9.run();
 		}
 	}
 }
