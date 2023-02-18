@@ -40,6 +40,9 @@ namespace Project_Euler
 
 			//P011_Largest_Product_in_a_Grid p011 = new P011_Largest_Product_in_a_Grid();
 			//p011.run();
+
+			//P_012_Highly_Divisible_Triangular_Number p012 = new P_012_Highly_Divisible_Triangular_Number();
+			//012.run();
 		}
 	}
 }
