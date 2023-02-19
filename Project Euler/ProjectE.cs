@@ -43,6 +43,9 @@ namespace Project_Euler
 
 			//P_012_Highly_Divisible_Triangular_Number p012 = new P_012_Highly_Divisible_Triangular_Number();
 			//012.run();
+
+			//P014_Longest_Collatz_Sequence p14 = new P014_Longest_Collatz_Sequence();
+			//p14.run();
 		}
 	}
 }
