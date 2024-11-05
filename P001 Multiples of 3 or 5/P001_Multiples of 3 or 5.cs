@@ -35,8 +35,8 @@ namespace Project_Euler
                 {
                     continue;
                 }
-                //if it ends in a 3 or 5, add it to the total and move on
-                else if (istring.EndsWith("5") | istring.EndsWith("0"))
+                //if it ends in a 0 or 5, add it to the total and move on
+                else if (istring.EndsWith("0") | istring.EndsWith("5"))
                 {
                     total += i;
                     continue;
