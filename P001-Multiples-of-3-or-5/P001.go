@@ -1,6 +1,8 @@
 package p001multiplesof3or5
 
-import "fmt"
+import (
+	"fmt"
+)
 
 /*
  * If we list all the natural numbers below 10 that are multiples of 3 or 5,
@@ -22,4 +24,14 @@ import "fmt"
  */
 func Run() {
 	fmt.Println("Running P001")
+
+	sum := 0
+
+	for i := 1; i < 1000; i++ {
+		if i%3 == 0 || i%5 == 0 {
+			sum += i
+		}
+	}
+
+	fmt.Printf("Result = %v", sum)
 }
