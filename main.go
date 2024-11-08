@@ -5,6 +5,7 @@ import (
 	p002 "Project_Euler/P002-Fibonacci"
 	p003 "Project_Euler/P003-Largest-Prime-Factor"
 	p004 "Project_Euler/P004-Palindromic-Numbers"
+	p005 "Project_Euler/P005-Smallest-Multiple"
 	"fmt"
 )
 
@@ -16,5 +17,8 @@ func main() {
 	p003.Run()
 	fmt.Println("")
 	p004.Run()
+	fmt.Println("")
+	p005.Run()
+	fmt.Println("")
 
 }

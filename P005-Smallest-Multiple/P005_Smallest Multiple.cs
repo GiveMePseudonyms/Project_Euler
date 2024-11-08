@@ -28,7 +28,7 @@ namespace Project_Euler
 	 * 7->14
 	 * 9->18
 	 * Therefore, our factors should include:
-	 * 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 29, 20
+	 * 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
 	 * 
 	 * This logic can also extend to 20 itself. Given that 10 is a factor of 20,
 	 * 2520 must also be a factor of 20s answer. We can use this check to

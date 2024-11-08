@@ -26,7 +26,7 @@ import (
 */
 
 func Run() {
-	println("\nRunningP004")
+	println("\nRunning P004")
 
 	largest := 0
 	for x := 999; x >= 100; x-- {
