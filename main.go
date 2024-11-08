@@ -6,6 +6,7 @@ import (
 	p003 "Project_Euler/P003-Largest-Prime-Factor"
 	p004 "Project_Euler/P004-Palindromic-Numbers"
 	p005 "Project_Euler/P005-Smallest-Multiple"
+	p006 "Project_Euler/P006-Square-of-the-Sums"
 	"fmt"
 )
 
@@ -19,6 +20,8 @@ func main() {
 	p004.Run()
 	fmt.Println("")
 	p005.Run()
+	fmt.Println("")
+	p006.Run()
 	fmt.Println("")
 
 }
