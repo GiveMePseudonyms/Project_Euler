@@ -8,6 +8,7 @@ import (
 	p005 "Project_Euler/P005-Smallest-Multiple"
 	p006 "Project_Euler/P006-Square-of-the-Sums"
 	p007 "Project_Euler/P007-Prime-10001"
+	p008 "Project_Euler/p008-Largest-Product-in-a-Series"
 	"fmt"
 )
 
@@ -25,6 +26,8 @@ func main() {
 	p006.Run()
 	fmt.Println("")
 	p007.Run()
+	fmt.Println("")
+	p008.Run()
 	fmt.Println("")
 
 }
