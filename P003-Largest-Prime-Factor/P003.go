@@ -2,7 +2,11 @@ package p003largestprimefactor
 
 import "fmt"
 
-func Run() {
+func Run(run bool) {
+
+	if !run {
+		return
+	}
 	println("\nRunning P003")
 
 	workingNumber := 600851475143
@@ -16,5 +20,5 @@ func Run() {
 		}
 	}
 
-	fmt.Printf("%v", counter)
+	fmt.Printf("%v\n", counter)
 }

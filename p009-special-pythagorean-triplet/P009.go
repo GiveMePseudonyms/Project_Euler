@@ -19,14 +19,18 @@ import "fmt"
  * expensive than adding.
  */
 
-func Run() {
+func Run(run bool) {
+
+	if !run {
+		return
+	}
 	println("\nRunning P009")
 
 	for a := 1; a <= 1000; a++ {
 		for b := a; b < 500-a/2; b++ {
 			c := 1000 - a - b
 			if a*a+b*b == c*c {
-				fmt.Printf("Solution: a = %v, b = %v, c = %v\nResult = %v", a, b, c, a*b*c)
+				fmt.Printf("Solution: a = %v, b = %v, c = %v\nResult = %v\n", a, b, c, a*b*c)
 				return
 			}
 		}

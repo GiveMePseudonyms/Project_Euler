@@ -26,7 +26,11 @@ import "fmt"
  * Solution: 104743
  */
 
-func Run() {
+func Run(run bool) {
+
+	if !run {
+		return
+	}
 	println("\nRunning P007")
 
 	var knownPrimes [10001]int
@@ -50,7 +54,7 @@ func Run() {
 		num++
 	}
 
-	fmt.Printf("Result = %v", knownPrimes[10000])
+	fmt.Printf("Result = %v\n", knownPrimes[10000])
 }
 
 func IsPrime(num int, knownPrimes *[10001]int) bool {

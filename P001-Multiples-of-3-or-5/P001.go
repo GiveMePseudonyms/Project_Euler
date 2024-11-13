@@ -22,7 +22,12 @@ import (
  * Things to consider:
  *  0 and 1000 shouldn't be included.
  */
-func Run() {
+func Run(run bool) {
+
+	if !run {
+		return
+	}
+
 	fmt.Println("Running P001")
 
 	sum := 0
@@ -33,5 +38,5 @@ func Run() {
 		}
 	}
 
-	fmt.Printf("Result = %v", sum)
+	fmt.Printf("Result = %v \n", sum)
 }

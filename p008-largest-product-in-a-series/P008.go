@@ -44,7 +44,11 @@ import (
  *	if it is, store it as the current largest,
  */
 
-func Run() {
+func Run(run bool) {
+
+	if !run {
+		return
+	}
 	println("\nRunning P008")
 
 	var num string = `167176531330624919225119674426574742355349194934
@@ -101,5 +105,5 @@ func Run() {
 			largest = sum
 		}
 	}
-	fmt.Printf("Result = %v", largest)
+	fmt.Printf("Result = %v\n", largest)
 }

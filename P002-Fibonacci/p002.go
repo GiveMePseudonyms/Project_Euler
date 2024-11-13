@@ -17,7 +17,11 @@ import "fmt"
  *  2. If a given term %2 ==0, add it to a running total.
  */
 
-func Run() {
+func Run(run bool) {
+
+	if !run {
+		return
+	}
 	println("\nRunning P002")
 
 	curr := 1
@@ -38,6 +42,6 @@ func Run() {
 		}
 	}
 
-	fmt.Printf("sum = %v", sum)
+	fmt.Printf("sum = %v\n", sum)
 
 }

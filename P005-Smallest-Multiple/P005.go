@@ -32,7 +32,11 @@ import "fmt"
  * 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
  */
 
-func Run() {
+func Run(run bool) {
+
+	if !run {
+		return
+	}
 	println("\nRunning P005")
 
 	divisors := [12]int{7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
@@ -50,7 +54,7 @@ func Run() {
 			}
 		}
 		if found {
-			fmt.Printf("Result: %v", currentNum)
+			fmt.Printf("Result: %v\n", currentNum)
 			return
 		} else {
 			currentNum++

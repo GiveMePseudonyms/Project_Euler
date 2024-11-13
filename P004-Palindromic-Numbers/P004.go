@@ -25,7 +25,11 @@ import (
  *
 */
 
-func Run() {
+func Run(run bool) {
+
+	if !run {
+		return
+	}
 	println("\nRunning P004")
 
 	largest := 0
@@ -40,7 +44,7 @@ func Run() {
 		}
 	}
 
-	fmt.Printf("Result = %v", largest)
+	fmt.Printf("Result = %v\n", largest)
 }
 
 func IsPalindromic(num int) bool {

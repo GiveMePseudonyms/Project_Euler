@@ -19,7 +19,11 @@ import (
  * first one hundred natural numbers and the square of the sum.
  */
 
-func Run() {
+func Run(run bool) {
+
+	if !run {
+		return
+	}
 	println("\nRunning P006")
 
 	sumOfSquares := 0
@@ -34,5 +38,5 @@ func Run() {
 
 	diff := squareOfSums - sumOfSquares
 
-	fmt.Printf("Result = %v", diff)
+	fmt.Printf("Result = %v\n", diff)
 }
